@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Your Web Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    .icon-text-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .icon-text-container i {
+      margin-right: 5px;
+    }
+
+    .icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:  #ffb259;
+    overflow: hidden;
+    }
+
+    .icon-circle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #ffb259;
+    overflow: hidden;
+    }
+
+    .icon-circle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    background-color: #ffffff;
+    overflow: hidden;
+    }
+
+.icon-circle i {
+  margin: 0;
+}
+
+.container-fluid {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="col-md-2">
+      <img src="images/REPUBLIC_1.png" alt="Hero Image" class="img-fluid" width="180px">
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+        <input type="text" placeholder="Search..">
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <div class="icon-circle">
+            <a class="nav-link" href="#">
+              <i class="fas fa-bell" style="color: #ffffff;"></i>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="icon-circle">
+            <a class="nav-link" href="#">
+              <i class="fas fa-user" style="color: #ffffff;"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+    </nav>
+  
+
+  <div class="container-fluid bg-warning bg-gradient">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Welcome to</h1>
+                <h1>SOI Learning Portal</h1>
+                <p class="lead">Expertly crafted courses that best for your</p>
+                <p class="lead">learning needs and preferences.</p>
+                <a href="#" class="btn btn-light">Browse Courses</a>
+                <a href="#" class="btn btn-light">Be An Instructor</a>
+            </div>
+
+            <div class="col-md-6">
+                <img src="images/jfimage2.avif" alt="Hero Image" class="img-fluid" width="250px">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="icon-text-container">
+          <div class="icon-circle2">
+            <i class="fas fa-book" style="color: #ffffff;"></i>
+          </div>
+          <p class="card-text">Enjoy a variety of fresh looks</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="icon-text-container">
+          <div class="icon-circle2">
+            <i class="fas fa-handshake" style="color: #ffffff;"></i>
+          </div>
+          <p class="card-text">Find the right instructor for you</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="icon-text-container">
+          <div class="icon-circle2">
+            <i class="fas fa-clock-rotate-left" style="color: #ffffff;"></i>
+          </div>
+          <p class="card-text">Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="container mt-4">
+    <h1>Featured Courses</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/htmlcss.png" class="card-img-top" alt="Card Image 0">
+          <div class="card-body">
+            <h5 class="card-title">Introduction to HTML and CSS</h5>
+            <div class="icon-text-container">
+                <div class="icon-circle3">
+                  <i class="fas fa-clock-rotate-left" style="color: #000000;"></i>
+                </div>
+                <p class="card-text">2h 30m</p>
+              </div>
+          </div>
+          <div class="card-footer">
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+            <b> Hannah Lim </b>
+            <i class="fa-regular fa-bookmark" style="color: #000000;"></i>
+          </div>
+        </div>
+      </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/uiux.webp" class="card-img-top" alt="Card Image 1">
+              <div class="card-body">
+                <h5 class="card-title">User Experience and Interface Design</h5>
+                <div class="icon-text-container">
+                    <div class="icon-circle3">
+                      <i class="fas fa-clock-rotate-left" style="color: #000000;"></i>
+                    </div>
+                    <p class="card-text">2h 45m</p>
+                  </div>
+              </div>
+              <div class="card-footer">
+                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                <b> Julia Lee </b>
+                <i class="fa-regular fa-bookmark" style="color: #000000;"></i>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/ios.jpg" class="card-img-top" alt="Card Image 2">
+          <div class="card-body">
+            <h5 class="card-title">IOS App Development using Xcode and Swift</h5>
+            <div class="icon-text-container">
+                <div class="icon-circle3">
+                  <i class="fas fa-clock-rotate-left" style="color: #000000;"></i>
+                </div>
+                <p class="card-text">4h 30m</p>
+              </div>
+          </div>
+          <div class="card-footer">
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+            <b> Ryan Low </b>
+            <i class="fa-regular fa-bookmark" style="color: #000000;"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/javascript.png" class="card-img-top" alt="Card Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Front-end JavaScript Frameworks</h5>
+            <div class="icon-text-container">
+                <div class="icon-circle3">
+                  <i class="fas fa-clock-rotate-left" style="color: #000000;"></i>
+                </div>
+                <p class="card-text">3h 45m</p>
+              </div>
+          </div>
+          <div class="card-footer">
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+            <b> Azhar Kamar </b>
+            <i class="fa-regular fa-bookmark" style="color: #000000;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 KOH BOYANG. All rights reserved.</p>
+      <p><a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Feedback</a> | <a href="#">Support</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
